@@ -1,7 +1,8 @@
 .jumbotron{
     font-family: 'Roboto', sans-serif;
     padding: 10px;
-    background-color: #D2D0D2;
+    background-color: #350524;
+
 }
 .tab-content {
     border-left: 1px solid #ddd;
@@ -39,24 +40,26 @@
   font-size: 18px;
   line-height: 1.33;
   border-radius: 6px;
+  background-color: none;
 }
 
 .btn-primary {
   color: #632420;
-  background-color: #136F63;
-  border-color: #632420;
+  background-color: #350524;
+  border-color: none;
 }
 
 .btn-primary:hover{
     background: none;
 }
-.btn-primary:focus,
+
+.btn-primary:focus,   
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #136F63;
-  background-color:#632420;
-  border-color: #632420;
+  color: #350524;
+  background-color:none;
+  border-color: #3505244;
 }
 
 /* Hover */
@@ -69,12 +72,12 @@
     color: black;
 }
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-    color: #632420;
-    border-color: #632420;
+    color: #350524;
+    border-color: #350524;
 }
 .btn-primary.outline:active, .btn-primary.outline.active {
-    border-color: #fff;
-    color: #fff;
+    border-color: none;
+    color: #350524;
     box-shadow: none;
 }
 .btn {
@@ -94,7 +97,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1f2833;
+    background-color: #BBB5B0;
 }
 li {
     float:left;
@@ -108,30 +111,37 @@ li a {
 }
 li a:hover {
     background-color: #111;
-    color: #458298;
+    color: #350524;
     text-decoration: none;
 }
 /** HEADERS AND OTHER FORMATING **/
- h1{
-    color:#64403E;
-    text-align: left;
-    font-style: bold;
-    font-family: 'Lato', sans-serif;
-}
 h2{
     font-style: bold;
-    color: #632420;
+    color: #350524;
     font-family: 'Lato', sans-serif;
     text-align: center;
+}
+h3{
+    color:white;
+    font-style: bold;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+h4{
+    font-style: bold;
+    color:  #350524;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-size: 40px;
 }
 p{
     font-family: 'Fira Sans', sans-serif;
-    color:black;
+    color:#ECE5D3;
     text-align: center;
 }
-    p.sub{
+p.sub{
     font-family: 'Fira Sans', sans-serif;
-    color: #136F63;
+    color: black;
     text-align: left;
     text-indent: 43px;
 }
@@ -149,12 +159,12 @@ a.head:visited {
 }
 
 a.head:hover {
-    color: #BC001C;
+    color: #5D1214;
     background-color: transparent;
     text-decoration: bold;
 }
 a.head:active {
-    color: #CF5C36;
+    color: #5D1314;
     background-color: transparent;
     font-style: italic;
 }
@@ -162,3 +172,4 @@ a.head:active {
 header { 
     background-color: black;
 }
+
